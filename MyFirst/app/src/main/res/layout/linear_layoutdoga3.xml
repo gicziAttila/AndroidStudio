@@ -68,7 +68,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="30dp"
-                android:hint="Enter your name">
+                android:hint="Enter your name"
+                android:background="@android:drawable/edit_text">
 
             </EditText>
 
@@ -90,7 +91,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="30dp"
-                android:hint="Enter your email">
+                android:hint="Enter your email"
+                android:background="@android:drawable/edit_text">
 
             </EditText>
 
@@ -112,9 +114,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="30dp"
-                android:hint="Enter your password">
+                android:hint="Enter your password"
+                android:background="@android:drawable/edit_text">
 
             </EditText>
+
         </LinearLayout>
 
         <LinearLayout

@@ -8,4 +8,7 @@
     <color name="background2">#e1f8fa</color>
     <color name="text2">#107364</color>
     <color name="grey2">#757575</color>
+    <color name="orange">#FFA500</color>
+    <color name="blue">#0000FF</color>
+    <color name="dolgozatColor">#94E2EA</color>
 </resources>

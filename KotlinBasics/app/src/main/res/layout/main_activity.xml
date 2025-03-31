@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/greetingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:text="Köszöntés"
+        android:textSize="24sp">
+
+    </Button>
+    <Button
+        android:id="@+id/openCalculatorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Számológép megnyitása"
+        android:layout_marginBottom="36dp"
+        android:textSize="24sp">
+
+    </Button>
+    <Button
+        android:id="@+id/openWeatherButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Időjárás megnyitása"
+        android:layout_marginBottom="36dp"
+        android:textSize="24sp">
+
+    </Button>
+    <Button
+        android:id="@+id/openUserList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Felhasználók megnyitása"
+        android:layout_marginBottom="36dp"
+        android:textSize="24sp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/openRandomUserList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Random felhasználók megnyitása"
+        android:layout_marginBottom="36dp"
+        android:textSize="24sp">
+
+    </Button>
+    <Button
+        android:id="@+id/openStudetnCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:text="Tanulok szama"
+        android:textSize="24sp">
+
+    </Button>
+    <Button
+        android:id="@+id/openColorList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Színek"
+        android:layout_marginBottom="36dp"
+        android:textSize="24sp">
+
+    </Button>
+
+
+</LinearLayout>
